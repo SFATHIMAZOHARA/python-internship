@@ -1,0 +1,9 @@
+condition=True
+sum=0
+while(condition):
+    n=int(input())
+    if(n==0):
+        print(sum)
+        condition=False
+    else:
+        sum=sum+n
